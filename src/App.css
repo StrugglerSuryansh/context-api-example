@@ -1,0 +1,73 @@
+/* src/App.css */
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    text-align: center;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.item {
+    margin-bottom: 20px;
+}
+
+.item h2 {
+    margin: 0;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.item p {
+    margin: 0 0 10px;
+    font-size: 1rem;
+    color: #555;
+}
+
+button {
+    padding: 8px 12px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.cart {
+    margin-top: 30px;
+}
+
+.cart h2 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+.cart ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 10px;
+}
+
+.cart ul li {
+    margin-bottom: 8px;
+}
+
+.cart h3 {
+    font-size: 1.2rem;
+    color: #333;
+}
